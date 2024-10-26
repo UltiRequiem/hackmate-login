@@ -11,7 +11,6 @@ export default function DashboardContent({ user }: { user: any }) {
           <div>
             <h1 className="text-3xl font-bold">Welcome back, {user.name || user.email}</h1>
             <p className="text-gray-500 mt-2">Here's what's happening with your account today.</p>
-            <p className="text-gray-500 mt-2">Karlos Cabro.</p>
 
           </div>
           <button
